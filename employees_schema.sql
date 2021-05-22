@@ -52,3 +52,6 @@ CREATE TABLE salaries(
 emp_no INT NOT NULL,
 salary INT NOT NULL,
 FOREIGN KEY (emp_no) REFERENCES employees(emp_no));
+
+--Using "SELECT *" to ensure imports worked properly (table name change as needed)
+SELECT * FROM titles;

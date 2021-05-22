@@ -29,4 +29,7 @@ sex VARCHAR NOT NULL,
 hire_date DATE NOT NULL,
 FOREIGN KEY (emp_title_id) REFERENCES titles(title_id));
 
---
+--Departments table
+CREATE TABLE departments(
+dept_no VARCHAR PRIMARY KEY NOT NULL,
+dept_name VARCHAR(30) NOT NULL);
